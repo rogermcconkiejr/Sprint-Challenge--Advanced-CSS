@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive websites respond to the size of the browser at any given point.  (it is always changing size to fit the sizes of the device it’s on.  Adaptive design only changes when it hits a specific point it’s programmed to – once it hits that point it snaps into place.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A mobile first designed was originally designed for a mobile screen.  The design then works its way up to function on bigger screens.  Desktop first is the opposite – it’s first design is on bigger screens and then the design works its way down to function on smaller screens. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It changes the original font (16px) to about 10px.  From there, we are able to change the font using REM knowing that however many rems we set our font size to its result will be that set REM multiplied by 10. (ex 2rem =20px).
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is like a library built into a programming language.  It gives us more tools that we can use to make our code more powerful that isn’t available in the regular language.  It then takes the code that we’ve written using those extra tools and converts it into something that that language can read.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is all the added tools it gives as developers to make our code more robust.  It allows us to accomplish things with code in much fewer lines and allows us to organize our code in a way that isn’t possible without it.  
+
+The concept that gives me the most trouble is the compiler.  All of this code that is written in the pre-processor has to be compiled into code that the language can understand (in our case LESS to CSS).  It’s important that the correct software is in place and functioning correctly or all the code that we write in LESS will be unable to be read in CSS, which would not allow it to style our HTML.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
