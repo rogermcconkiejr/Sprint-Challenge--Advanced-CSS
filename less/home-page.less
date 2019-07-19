@@ -30,6 +30,11 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media @mobile{
+      .sky, .launch{
+        display:none;
+      }
+    }
 
     img {
       width: 28%;
@@ -37,18 +42,9 @@
       border-radius: 20px;
       height: 100%;
       @media @mobile{
-      width: 95%;
+       width: 95%;
       }
-      .sky{
-        @media @mobile{
-          display: none !important;
-        }
-      }
-      .launch{
-        @media @mobile{
-          display: none !important;
-        }
-      } 
+
     }
   }
 
