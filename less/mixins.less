@@ -1,1 +1,27 @@
 // Mixins Here
+.generic-but(@font-z, @font-color){
+    display:block;
+    background-color:black;
+    width:100px;
+    height:30px;
+    font-size:@font-z;
+    border-radius:5px;
+    color:@font-color;
+
+    &:hover{
+        color:black;
+        background:white;
+    }
+}
+
+.even-space(){
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.space-center(){
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}

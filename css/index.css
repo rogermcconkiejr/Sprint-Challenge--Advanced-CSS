@@ -178,7 +178,7 @@ p {
   justify-content: space-evenly;
 }
 .navdiv a {
-  margin-left: 30px;
+  margin-left: 35px;
   font-size: 1.8rem;
   text-decoration: none;
   color: black;
@@ -234,6 +234,23 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: flex-start;
+}
+.home .walk .walk-text .btn .generic-b {
+  display: block;
+  background-color: black;
+  width: 100px;
+  height: 30px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  color: white;
+}
+.home .walk .walk-text .btn .generic-b:hover {
+  color: black;
+  background: white;
 }
 .home .walk .walk-img {
   width: 46%;
